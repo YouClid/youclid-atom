@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "youclid-atom:compile_and_open",
+    "ctrl-alt-c": "youclid-atom:compile",
+    "ctrl-alt-m": "youclid-atom:mark"
+  }
+}

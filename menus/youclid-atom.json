@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Compile current file",
+        "command": "youclid-atom:compile"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "youclid-atom",
+          "submenu": [
+            {
+              "label": "Compile",
+              "command": "youclid-atom:compile"
+            },
+            {
+              "label": "Compile and Open",
+              "command": "youclid-atom:compile_and_open"
+            },
+            {
+              "label": "Mark",
+              "command": "youclid-atom:mark"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
